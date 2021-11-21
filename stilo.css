@@ -1,0 +1,162 @@
+body{
+	border:1px solid #000000;
+}
+
+/** estilpo del header principal**
+
+/** redondeando las esquina del header padre la cual es la caja conbtenedora de
+lainmagen del perfil y el nombre, color de fondo y distamcia del porder de la pantalla**/
+.hheader{
+	background: #afeeee;
+	margin: 15px  20px;
+	border-radius: 20px;
+}
+
+
+.imgperfil img{
+	width: 45%;
+	border-radius: 100%;
+	margin-left: 30%;
+
+}
+
+
+/**marge superio e inferio de las etiquetas H dentro del primer header**/
+.nombre h1,.nombre h3{
+	margin: 5px auto;
+	
+}
+
+.nombre,.imgperfil{
+	display: inline-block;
+}
+.nombre{
+	width: 59%;
+	margin-top: 15px;
+}
+
+.imgperfil{
+	width: 39%;
+	margin-top: 15px;
+
+}
+
+
+section{
+	width: 55%;
+}
+article{
+	margin-left: 40px;
+}
+
+section,aside{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+aside{
+	width: 39%;
+	margin-left: 10px;
+}
+
+nav ul{
+	margin: 0px;
+
+	
+}
+.idioma li{
+	margin-left: 20px;
+} 
+/** espacio entre el borde y el contedio del section **/
+
+
+h5{
+	margin: 5px auto;
+}
+/** margen inferio del primer hijo del section**/
+section div:nth-child(1){
+	margin-bottom: 15px;
+}
+
+h2{
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	border-bottom: 1.5px solid #000000;
+	font-family: tahoma, verdana, sans-serif;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+h1{
+	font-family: arial black;
+	font-size: 25px;
+}
+
+h3{
+	font-family: arial narrow;
+	
+}
+h5{
+	font-family: arial narrow;
+	text-transform: capitalize;
+}
+
+.nombre h3{
+	font-family: tahoma,arial black;
+	font-size: 20px;
+
+}
+p,li{
+	font-family: georgia ,monospace,cursive;
+	font-size: 15px;
+}
+
+aside div{
+	margin-bottom: 20px;
+}
+
+li{
+	margin-bottom: 10px;
+}
+.estudio article{
+	margin-bottom: 15px;
+}
+
+/** eliminacion de las viñetas de la lista de los lenguajes de programacion*/
+
+
+#correo{
+	list-style-image: url("imagen/msj.png");
+}
+#tlf{
+	list-style-image: url("imagen/tlf.png");
+}
+#ubi{
+	list-style-image: url("imagen/ubicacion.png");
+}
+.lenguaje li {
+	list-style: none;
+}
+#usa{
+	list-style-image: url("imagen/usa.png");
+}
+#españa{
+	list-style-image: url("imagen/españa.png");
+}
+#portugal{
+	list-style-image: url("imagen/portugal.png");
+}
+a{
+	color: #000000;
+}
+a:hover{
+	color: #00ffff;
+}
+
+a:active{
+	color: black;
+}
+
+nav li{
+	margin-top: 10px;
+}
